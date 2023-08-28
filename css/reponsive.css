@@ -1,0 +1,51 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width:1023px) {
+    .formInput {
+        width: 50%;
+    }
+
+    .boxSlider {
+        width: 120%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    .formInput {
+        width: 95%;
+    }
+
+    .boxSlider {
+        width: 130%;
+    }
+
+    .boxHandsInput .handsCatImgInput img {
+        width: 80%;
+    }
+
+    .giftbox .img {
+        position: absolute;
+        width: 155px;
+        bottom: 10px;
+        left: -5px;
+        z-index: 100;
+    }
+
+    .boxLetter .before {
+        width: 500px;
+    }
+    
+    @keyframes car{
+        0%{
+            transform: translateX(-400px);
+        }
+        50%,100%{
+            transform: translateX(40px);
+        }
+    }
+}
